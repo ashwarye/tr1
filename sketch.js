@@ -79,7 +79,7 @@ function draw() {
     
   
     if(keyDown("space") && trex.y >= 159) {
-      jumpSound.play();
+      //jumpSound.play();
       trex.velocityY = -14;
     }
   
